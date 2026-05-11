@@ -1,0 +1,15 @@
+type ChatMessage = 
+ record {
+   content: text;
+   role: text;
+   timestamp: int;
+ };
+service : {
+  clearHistory: () -> ();
+  getHistory: () -> (vec ChatMessage) query;
+  getPersonality: () -> (text) query;
+  retryMessage: (messageIndex: nat) -> (text);
+  sendMessage: (message: text) -> (text);
+  setOpenAIKey: (key: text) -> ();
+  setPersonality: (p: text) -> ();
+}

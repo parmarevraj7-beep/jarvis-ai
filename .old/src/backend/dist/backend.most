@@ -1,0 +1,14 @@
+// Version: 1.0.0
+type ChatMessage__559859432 = {content : Text; role : Text; timestamp : Int};
+type Nat__1040412405 = Nat__920180692;
+type Nat__920180692 = Nat;
+actor {
+  stable history :
+    {
+      var blockIndex : Nat__1040412405;
+      var blocks : [var [var ?ChatMessage__559859432]];
+      var elementIndex : Nat__1040412405
+    };
+  stable openAIApiKey : {var value : ?Text};
+  stable personality : {var value : Text}
+};

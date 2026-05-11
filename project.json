@@ -1,0 +1,24 @@
+{
+  "overview": "A Jarvis-like AI voice assistant with an Iron Man-inspired HUD interface. Chat with AI using voice or text, with real-time speech recognition, text-to-speech output, and configurable AI personalities.",
+  "features": [
+    "Voice chat with real-time speech recognition",
+    "Text-to-speech AI responses with customizable rate, pitch, and voice",
+    "Iron Man HUD design with cyan glow effects and animated audio visualizer",
+    "AI personality selector (Jarvis, Friday, analytical mode)",
+    "Message retry/regeneration",
+    "Stop generation mid-response",
+    "OpenAI API key management",
+    "Persistent voice and personality preferences"
+  ],
+  "category": "productivity",
+  "tags": [
+    "ai",
+    "voice",
+    "chat",
+    "jarvis",
+    "iron-man",
+    "text-to-speech",
+    "speech-recognition"
+  ],
+  "last_updated": "2026-05-11T06:54:51.897Z"
+}
